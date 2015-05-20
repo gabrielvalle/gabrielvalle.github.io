@@ -1,0 +1,37 @@
+header {
+  width: 100%;
+  min-height: 60px;
+  background-color: $azul-base;
+  text-align: center;
+  border-bottom: solid 2px $laranja-base;
+
+	.logo {
+		width: 300px;
+		height: 60px;
+	}
+
+  .btn-login {
+    margin: 12px 0;
+    vertical-align: middle;
+
+    .btnLogin {
+      padding: 8px 15px;
+      display: table-cell;
+      vertical-align: middle;
+      color: #fff;
+      text-decoration: none;
+      font-size: $font-size-base;
+    }
+
+    .btn-group {
+        padding: 0 5px;
+      }
+  }
+
+  .language-icon {
+    font-family: $font-family-sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+}

@@ -1,0 +1,251 @@
+.sua-pesquisa {
+
+	width: 100%;
+	min-height: 400px;
+	border: solid 1px $laranja-base;
+	border-radius: 8px;
+	padding: 20px;
+
+	h1 {
+		font-family: $font-family-primary;
+		font-size: 18px;
+		color: $laranja-base;
+		margin: 10px 0;
+	}
+
+	/*-----------------------------------------------------------------*/
+	/* INPUT DE BUSCA
+	/*-----------------------------------------------------------------*/
+
+	.placard {
+		width: 100%;
+
+		.placard-popup {
+			background: #fff;
+		}
+	}
+
+	/*-----------------------------------------------------------------*/
+	/* FORMULARIO PESQUISA INTERNO
+	/*-----------------------------------------------------------------*/
+
+	.formulario-pesquisa-interno {
+
+		p {
+			color: $laranja-base;
+			font-size: 0.9em;
+			font-family: $font-family-primary;
+			text-align: center;
+			font-weight: bold;
+			font-style: normal;
+			margin-bottom: 20px;
+		}
+
+		label {
+			color: $laranja-base;
+			font-family: $font-family-sans-serif;
+			font-size: $font-size-base;
+			font-weight: normal;
+			margin-top: 10px;
+			vertical-align: baseline;
+		}
+
+		blockquote {
+			font-size: $font-size-base;
+		}
+	
+
+		/*-----------------------------------------------------------------*/
+		/* INPUT HOSPEDES
+		/*-----------------------------------------------------------------*/
+
+		.input-hospedes {
+
+			.spinbox {
+				width: 100%;
+			}
+
+			.spinbox-input {
+				padding: 0px 25px 0px 30px !important;
+				font-weight: bold;
+			}
+		}
+
+		/*-----------------------------------------------------------------*/
+		/* INPUT DATA
+		/*-----------------------------------------------------------------*/
+
+		.input-data {
+
+			.input-group {
+
+				display: block;
+
+				.form-control {
+				border: solid 1px #ccc;
+				}
+
+			}
+
+			.input-group-addon, .input-group-btn, .input-group .form-control {
+				display: block;
+				
+			}
+
+			.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+				border-radius: 4px;
+			}
+
+			.input-group-btn {
+				border: 0;
+				z-index: 2;
+				left: -26px;
+				top: 7px;
+			}
+
+			button {
+				border:0;
+			}
+
+		}
+
+
+		.datepicker-calendar-wrapper {
+			position: absolute;
+			left: 0px;
+		}
+
+		.datepicker-calendar-header .next, .datepicker-calendar-header .prev, {
+			background-color: $laranja-base;
+		}
+
+		.datepicker-calendar-header .next:hover, .datepicker-calendar-header .prev:hover {
+			background-color: $laranja-base-hover;
+		}
+
+		.datepicker-calendar-header .title {
+			font-family: $font-family-primary;
+			font-size: $font-size-base;
+			text-decoration: none;
+		}
+
+		.datepicker-calendar-header .title:hover {
+			color: $laranja-base-hover;
+		}
+
+		.datepicker-calendar-days td.selected span {
+			background-color: $laranja-base;
+		}
+
+		.datepicker-calendar-days td.selected span:hover {
+			background-color: $laranja-base-hover;
+		}
+
+		.datepicker-calendar-days td.selected b, .datepicker-calendar-days td.selected button {
+			color: #fff;
+		}
+
+		.datepicker-calendar-footer .datepicker-today {
+			text-decoration: none;
+		}
+
+		.datepicker-calendar-footer .datepicker-today:hover {
+			color: $laranja-base-hover;
+			text-decoration: none;
+		}
+
+		.datepicker-wheels-month ul li.selected button:hover, .datepicker-wheels-year ul li.selected button:hover {
+			background-color: $laranja-base-hover;
+		}
+
+		.datepicker-wheels-month ul li.selected button, .datepicker-wheels-year ul li.selected button {
+			background-color: $laranja-base;
+		}
+
+		.datepicker-wheels-footer .datepicker-wheels-select {
+			color: $laranja-base;
+		}
+
+		.datepicker-wheels-footer .datepicker-wheels-select:hover {
+			color: $laranja-base-hover;
+		}
+
+		.datepicker-wheels-month ul li button:hover, .datepicker-wheels-year ul li button:hover {
+			background-color: $gray-lighter;
+		}
+
+		/*-----------------------------------------------------------------*/
+		/* INPUT HORA
+		/*-----------------------------------------------------------------*/
+
+		.left-margin {
+			margin-left: 5px;
+		}
+
+		.input-hora {
+
+			.hora-input {
+				max-width: 90px;
+				font-weight: bold;
+			}
+
+			.input-mini {
+				margin-left: 20px;
+			}
+
+			.icon-hora {
+				background: transparent;
+			}
+		}
+
+		.bootstrap-timepicker-widget table td a {
+			padding: 0 !important;
+		}
+
+		.bootstrap-timepicker-widget table td a i {
+			font-size: 12px;
+		}
+
+		
+		/*-----------------------------------------------------------------*/
+		/* INPUT PERIODO
+		/*-----------------------------------------------------------------*/
+
+		.input-periodo {
+
+			.radio-select {
+				margin-top: -11px;
+
+				.btn-periodo {
+					padding-top: 5px;
+					margin-top: 10px;
+					margin-right: -5px;
+					width: 40px;
+					height: 34px;
+					color: #555;
+					font-weight: bold;
+					border: solid 1px #ccc;
+
+					&:hover,
+					&:focus,
+					&:active {
+					    border-color: $laranja-base;
+					    color: #fff;
+					    text-decoration: none;
+					}
+				}
+			}
+		}
+
+		/*-----------------------------------------------------------------*/
+		/* BOTAO PESQUISAR
+		/*-----------------------------------------------------------------*/
+
+		#botaoPesquisar {
+			margin: auto;
+			padding: 10px 25px;
+			margin-top: 20px;
+			font-size: 0.6em;
+		}
+	}
+}

@@ -1,0 +1,27 @@
+.perguntas-frequentes {
+	width: 100%;
+	min-height: 200px;
+	border: solid 1px $laranja-base;
+	border-radius: 8px;
+	padding: 20px;
+	margin: 20px 0;
+
+	h1 {
+		font-family: $font-family-primary;
+		font-size: 18px;
+		color: $laranja-base;
+		margin: 10px 0;
+	}
+
+	p {
+		font-size: $font-size-base;
+
+		a {
+			color: $azul-escuro-base;
+			font-size: $font-size-base;
+			font-style: normal;
+			height: auto;
+		}
+	}
+
+}

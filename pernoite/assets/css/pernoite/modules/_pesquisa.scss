@@ -1,0 +1,353 @@
+
+/*-----------------------------------------------------------------*/
+/* CAROUSEL PESQUISA
+/*-----------------------------------------------------------------*/
+.carousel-pesquisa {
+	
+	background-image: url("../img/bg-pesquisa.jpg");
+	background-position: center;
+	height: 579px;
+
+	.carousel-inner {
+		height: 100%;
+		margin: auto;
+		max-width: 1300px;
+		overflow: visible;
+	
+		.item {
+			height: 100%;
+			
+			img {
+				margin: auto;
+				-webkit-box-shadow: 0px -15px 26px 1px rgba(0,0,0,0.75);
+				-moz-box-shadow: 0px -15px 26px 1px rgba(0,0,0,0.75);
+				box-shadow: 0px -15px 26px 1px rgba(0,0,0,0.75);
+			}
+		}
+
+		.slide-one {
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-image:url("../img/slide-pesquisa.jpg");
+			background-position: center top;
+		}
+
+	}
+
+}
+
+/*-----------------------------------------------------------------*/
+/* FORMULARIO PESQUISA
+/*-----------------------------------------------------------------*/
+
+.formulario-pesquisa {
+	position: absolute;
+	left: 50%;
+	top:50%;
+	background-color: transparent;
+	z-index: 1;
+	width: 700px;
+	min-height: 400px;
+	margin-left: -350px;
+	margin-top: -260px;
+
+	h1 {
+		color: #fff;
+		font-size: 1.400em;
+		font-family: $font-family-primary;
+		text-align: center;
+		font-weight: bold;
+		font-style: normal;
+
+	}
+
+	p {
+		color: #fff;
+		font-size: 0.9em;
+		font-family: $font-family-primary;
+		text-align: center;
+		font-weight: bold;
+		font-style: normal;
+		margin-bottom: 20px;
+	}
+
+	label {
+		color: #fff;
+		font-family: $font-family-sans-serif;
+		font-size: $font-size-base;
+		font-weight: normal;
+		margin-top: 10px;
+		vertical-align: baseline;
+	}
+
+	/*-----------------------------------------------------------------*/
+	/* INPUT PESQUISA
+	/*-----------------------------------------------------------------*/
+
+	.input-search {
+
+		position: relative;
+
+		.tt-dropdown-menu {
+			width: 100%;
+	  		max-height: 150px;
+	  		overflow-y: auto;
+	  		background-color: #fff;
+	  	}
+
+	  	p {
+	  		color: #000;
+	  		font-size: $font-size-base;
+	  		font-family: $font-family-sans-serif;
+	  		text-align: left;
+	  		padding-left: 50px;
+	  		font-weight: normal;
+	  	}
+
+	  	input {
+	  		width: 100%;
+	  		height: 50px;
+	  		padding-left: 50px;
+	  	}
+
+	  	.icon-search {
+	  		position: absolute;;
+	  		z-index: 2;
+	  		background: transparent;
+	  		border: 0;
+	  		padding: 15px;
+	  		font-size: 22px;
+	  		color: $laranja-base;
+	  	}
+
+	  	.twitter-typeahead {
+	  		width: 100%;
+	  	}
+	}
+
+	/*-----------------------------------------------------------------*/
+	/* INPUT HOSPEDES
+	/*-----------------------------------------------------------------*/
+
+	.input-hospedes {
+
+		.spinbox-input {
+			max-width: 90px;
+			padding: 0px 25px 0px 30px !important;
+			font-weight: bold;
+		}
+	}
+
+	/*-----------------------------------------------------------------*/
+	/* INPUT HORA
+	/*-----------------------------------------------------------------*/
+
+	.input-hora {
+		.hora-input {
+			max-width: 90px;
+			font-weight: bold;
+		}
+		.icon-hora {
+			background: transparent;
+		}
+	}
+
+	
+
+	/*-----------------------------------------------------------------*/
+	/* INPUT DATA
+	/*-----------------------------------------------------------------*/
+
+	.input-data {
+
+		.data-input {
+			max-width: 170px;
+			font-weight: bold;
+		}
+
+		.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+			border-radius: 4px;
+			border:0;
+		}
+
+		.input-group-btn {
+			border: 0;
+			z-index: 2;
+			left: -30px;
+		}
+
+		button {
+			border:0;
+		}
+
+	}
+
+	.datepicker-calendar-wrapper {
+		position: absolute;
+		left: -220px;
+	}
+
+	.datepicker-calendar-header .next, .datepicker-calendar-header .prev, {
+		background-color: $laranja-base;
+	}
+
+	.datepicker-calendar-header .next:hover, .datepicker-calendar-header .prev:hover {
+		background-color: $laranja-base-hover;
+	}
+
+	.datepicker-calendar-header .title {
+		font-family: $font-family-primary;
+		font-size: $font-size-base;
+		text-decoration: none;
+	}
+
+	.datepicker-calendar-header .title:hover {
+		color: $laranja-base-hover;
+	}
+
+	.datepicker-calendar-days td.selected span {
+		background-color: $laranja-base;
+	}
+
+	.datepicker-calendar-days td.selected span:hover {
+		background-color: $laranja-base-hover;
+	}
+
+	.datepicker-calendar-days td.selected b, .datepicker-calendar-days td.selected button {
+		color: #fff;
+	}
+
+	.datepicker-calendar-footer .datepicker-today {
+		text-decoration: none;
+	}
+
+	.datepicker-calendar-footer .datepicker-today:hover {
+		color: $laranja-base-hover;
+		text-decoration: none;
+	}
+
+	.datepicker-wheels-month ul li.selected button:hover, .datepicker-wheels-year ul li.selected button:hover {
+		background-color: $laranja-base-hover;
+	}
+
+	.datepicker-wheels-month ul li.selected button, .datepicker-wheels-year ul li.selected button {
+		background-color: $laranja-base;
+	}
+
+	.datepicker-wheels-footer .datepicker-wheels-select {
+		color: $laranja-base;
+	}
+
+	.datepicker-wheels-footer .datepicker-wheels-select:hover {
+		color: $laranja-base-hover;
+	}
+
+	.datepicker-wheels-month ul li button:hover, .datepicker-wheels-year ul li button:hover {
+		background-color: $gray-lighter;
+	}
+
+	/*-----------------------------------------------------------------*/
+	/* INPUT PERIODO
+	/*-----------------------------------------------------------------*/
+
+	.input-periodo {
+
+		max-width: 255px;
+
+		.radio-select {
+			margin-top: -11px;
+
+			.btn-periodo {
+				padding-top: 5px;
+				margin-top: 10px;
+				margin-right: -5px;
+				width: 40px;
+				height: 34px;
+				color: #555;
+				font-weight: bold;
+
+				&:hover,
+				&:focus,
+				&:active {
+				    border-color: $laranja-base;
+				    color: #fff;
+				    text-decoration: none;
+				}
+			}
+		}
+	}
+
+	/*-----------------------------------------------------------------*/
+	/* MAIS OPCOES
+	/*-----------------------------------------------------------------*/
+
+	#mostraOpcoes {
+
+		max-width: 70px;
+		cursor: pointer;
+		font-size: 12px;
+		float: left;
+		margin-left: 20px;
+		margin-top: 8px;
+	}
+
+	.mais-opcoes-container {
+
+		display: none;
+		line-height: 25px !important;
+		padding-top: 20px;
+
+		label {
+			margin-top: 0;
+			text-align: center;
+		}
+
+		label:hover:before {
+			box-shadow: inset 0px 0px 2px 1px rgba(240, 48, 75, 0.7), 0px 0px 5px 0px rgba(240, 48, 75, 0.7) !important;
+		}
+
+		.checkbox-custom:before {
+			background-color: #fff;
+		}
+		.checkbox-custom.checked:before {
+			background-color: $laranja-base;
+			border-color: $laranja-base;
+		}
+
+	}
+
+	/*-----------------------------------------------------------------*/
+	/* BOTAO PESQUISAR
+	/*-----------------------------------------------------------------*/
+
+	.form-bottom {
+		width:220px;
+		height: 50px;
+		margin:auto;
+		margin-top: 30px; 
+	}
+
+	#botaoPesquisar {
+		margin: auto;
+		padding: 10px 25px;
+		float: left;
+	}
+
+}
+
+/*-----------------------------------------------------------------*/
+/* AJUSTAR TIME PICKER
+/*-----------------------------------------------------------------*/
+
+.bootstrap-timepicker-widget table td a {
+	padding: 0 !important;
+}
+
+.bootstrap-timepicker-widget table td a i {
+	font-size: 12px !important;
+}
+
+
+
+
+
