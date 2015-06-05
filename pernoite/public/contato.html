@@ -11,6 +11,8 @@
 
   <body class="fuelux">
 
+  <div id="fb-root"></div>
+
     <div class="pernoite">
 
       <p class="loading">
@@ -766,15 +768,21 @@
           </div>
 
         </div>
-      </header><!-- /header -->
+      </header>
+      <!-- /HEADER -->
 
       <!-- PAGE -->
       <div class="page hidden-page">
-        <div class="content-contact">
+        <section class="content-gerenciador">
 
-          <p>Contato</p>
+          <div class="panel-body">
 
-        </div>
+            
+              
+            
+          </div>
+
+        </section>
       </div>
       <!-- /PAGE -->
 
@@ -812,13 +820,13 @@
               <ul>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">FAQ</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="contato.html">Contato</a></li>
                 <li><a href="#">Termo de Uso</a></li>
               </ul>
 
             </div>
 
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item">
+            <div class="col-lg-3 col-md-2 col-sm-6 col-xs-12 item">
               
               <div class="menu-footer">
                 
@@ -833,7 +841,9 @@
                   <li><a href="#">Cadastre sua hospedagem</a></li>
                 </ul>
 
-                <p> Siga-nos nas Redes Sociais: </p>
+                </br>
+
+                <p> Siga-nos: </p>
 
                 <a href="#"><i id="social" class="fa fa-facebook-square fa-1x social-fb"></i></a>
                 <a href="#"><i id="social" class="fa fa-twitter-square fa-1x social-tw"></i></a>
@@ -843,7 +853,19 @@
 
             </div>
 
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 item">
+
+              <div class="row">
+                
+                <div class="fb-page" data-href="https://www.facebook.com/facebook" data-width="235" data-height="300" data-hide-cover="false" data-show-facepile="true" data-show-posts="false">
+                  <div class="fb-xfbml-parse-ignore">
+                    <blockquote cite="https://www.facebook.com/facebook">
+                      <a href="https://www.facebook.com/facebook">Facebook</a>
+                    </blockquote>
+                  </div>
+                </div>
+
+              </div>
               
             </div>
 
@@ -853,7 +875,7 @@
 
         <div class="faixa">
           <div class="container">
-            <p>Copyright © 2015 Hotel Pernoite. Todos os direitos reservados. <span> <a href="#"> <img src="img/design-ycloud.png" alt=""> </a> </span></p>
+            <p>Copyright © 2015 Pernoite.com. Todos os direitos reservados. <span> <a href="#"> <img src="img/design-ycloud.png" alt=""> </a> </span></p>
 
           </div>
         </div>
@@ -863,6 +885,34 @@
 
     </div>
 
+    <!-- MODAL -->
+      <div class="modal fade modal-gerenciador" id="modal-modelo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">MODELO:</h4>
+            </div>
+            <div class="modal-body">
+
+              <div class="row">
+
+              </div>
+
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-sm btn-primary">OK</button>
+              <button type="button" class="btn btn-sm btn-azul-escuro" data-dismiss="modal">FECHAR</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- MODAL -->
+    
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
     <script src="js/pernoite.js"></script>
+    <script src="js/calendar.js"></script>
   </body>
 </html>
