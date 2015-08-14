@@ -38,8 +38,6 @@ Pernoite.Application = (function() {
 
   Application.fn.run = function(location) {
     var RouteClass = this.routes[location.pathname];
-
-    console.log(this.routes[location.pathname]);
     
     if (RouteClass) {
       var route = new RouteClass(this.container);

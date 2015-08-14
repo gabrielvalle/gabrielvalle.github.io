@@ -30686,16 +30686,16 @@ Pernoite.Application = (function() {
   this.languageChange = this.languageSelected.find('.dropdown-menu-language li');
   this.languageCode = this.languageSelected.find('button span');
 
-	this.routes = { 
+	this.routes = {
 
-     'gabrielvalle.com.br/projetos/pernoite/public/': Pernoite.IndexRoute
-   , 'gabrielvalle.com.br/projetos/pernoite/public/temp.html': Pernoite.IndexRoute 
-   , 'gabrielvalle.com.br/projetos/pernoite/public/hotel.html': Pernoite.HotelRoute
-   , 'gabrielvalle.com.br/projetos/pernoite/public/resultado.html': Pernoite.ResultadoRoute
-   , 'gabrielvalle.com.br/projetos/pernoite/public/reservar.html': Pernoite.ReservarRoute
-   , 'gabrielvalle.com.br/projetos/pernoite/public/usuario.html': Pernoite.UsuarioRoute
-   , 'gabrielvalle.com.br/projetos/pernoite/public/gerenciador.html': Pernoite.GerenciadorRoute
-   , 'gabrielvalle.com.br/projetos/pernoite/public/contato.html': Pernoite.ContactRoute
+     'http://gabrielvalle.com.br/projetos/pernoite/public/': Pernoite.IndexRoute
+   , 'http://gabrielvalle.com.br/projetos/pernoite/public/temp.html': Pernoite.IndexRoute 
+   , 'http://gabrielvalle.com.br/projetos/pernoite/public/hotel.html': Pernoite.HotelRoute
+   , 'http://gabrielvalle.com.br/projetos/pernoite/public/resultado.html': Pernoite.ResultadoRoute
+   , 'http://gabrielvalle.com.br/projetos/pernoite/public/reservar.html': Pernoite.ReservarRoute
+   , 'http://gabrielvalle.com.br/projetos/pernoite/public/usuario.html': Pernoite.UsuarioRoute
+   , 'http://gabrielvalle.com.br/projetos/pernoite/public/gerenciador.html': Pernoite.GerenciadorRoute
+   , 'http://gabrielvalle.com.br/projetos/pernoite/public/contato.html': Pernoite.ContactRoute
 
    //   '/pernoite/public/': Pernoite.IndexRoute
    // , '/pernoite/public/hotel.html': Pernoite.HotelRoute
