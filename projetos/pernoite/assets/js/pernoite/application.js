@@ -7,7 +7,7 @@ Pernoite.Application = (function() {
   this.languageChange = this.languageSelected.find('.dropdown-menu-language li');
   this.languageCode = this.languageSelected.find('button span');
 
-	this.routes = {
+	this.routes = { 
 
      'gabrielvalle.com.br/projetos/pernoite/public/': Pernoite.IndexRoute
    , 'gabrielvalle.com.br/projetos/pernoite/public/temp.html': Pernoite.IndexRoute 
