@@ -1,0 +1,348 @@
+.gerenciador {
+	width: 100%;
+	height: auto;
+	margin: 60px 0 0 0;
+
+	p {
+		font-size: $font-size-base;
+		color: $gray;
+	}
+
+	a {
+		font-size: $font-size-base;
+		color: $gray;
+
+		&:hover, &:active, &:focus {
+			color: $laranja-base;
+			text-decoration: none !important;
+		}
+	}
+
+	.collapse.in p {
+		color: $laranja-base;
+	}
+
+	.calendar {
+	min-height: 900px;
+	}
+
+	.search {
+		width: 100%;
+	}
+
+	.margin-left {
+		margin-left: 10px;
+	}
+
+	.nav-tabs-justified {
+
+		li {
+
+			font-family: $font-family-primary;
+			font-size: $font-size-base;
+
+			a {
+				border: solid 1px #ddd;
+				border-bottom: 0;
+				margin: 0 10px;
+			}
+
+			&.active {
+				
+				color: #fff;
+
+				a {
+					color: #fff;
+					background-color: $laranja-base;
+					border: 0;
+				}
+			}
+		}
+	}
+
+	.panel-abas {
+		margin: 0 10px;
+		padding: 20px;
+		border-color: $laranja-base;
+	}
+
+	.btn-default {
+		border-color: $laranja-base;
+		color: $laranja-base;
+
+		&:hover {
+			background-color: $laranja-base;
+			color: #fff;
+		}
+	}
+
+	.informacoes-quarto {
+		thead {
+			tr {
+				background-color: #f5f5f5;
+			}
+		}
+
+	}
+
+	.informacoes-hotel {
+
+		#titulo {
+			max-width: 70px;
+		}
+
+		img {
+			border: solid 1px $azul-escuro-base;
+			margin: 10px 0;
+		}
+
+		input {
+			
+		}
+
+		select {
+			
+		}
+
+		.button {
+			padding-top: 20px;
+		}
+
+		label {
+		margin-top: 10px;
+		font-size: $font-size-base;
+		color: $gray;
+		}
+
+		.btn-salvar {
+			margin-top: 20px;
+			float: left;
+		}
+
+		.email-do-usuario {
+			color: $laranja-base;
+			border-top: solid 1px #ddd;
+			border-bottom: solid 1px #ddd;
+			padding: 20px;
+			float: left;
+			width: 100%;
+
+			button {
+				float: right;
+				margin: 0 0 0 10px;
+
+				&:hover {
+					color: #fff;
+				}
+			}
+		}
+
+		
+	}
+
+	table {
+	    color: $gray;
+	    font-size: $font-size-base;
+
+	    a {
+	      text-decoration: none;
+	      color: $laranja-base !important;
+	      font-weight: bold;
+	      &:hover {
+	      	color: $azul-escuro-base !important;
+	      }
+	    }
+	}
+
+    th {
+     background-color: #f5f5f5;
+     color: $gray;
+    }
+
+    tr:first-child {
+	  	td {
+	  		border-top: 0;
+	  	}
+    }
+
+    .text-align-center {
+  	  text-align: center !important;
+    }
+
+    .placard {
+		width: 100%;
+
+		.placard-popup {
+			background: #f5f5f5;
+			bottom: -51px !important;
+		}
+
+		.placard-field {
+			width: 100%;
+		}
+	}
+
+	.panel-default > .panel-heading {
+		min-height: 50px;
+	}
+
+	.toggle-on.btn { padding-right: 0px; padding: 6px; font-size: $font-size-base; }
+	.toggle-off.btn { padding: 6px; font-size: $font-size-base; }
+
+	.btn-md {
+		min-width: 100px;
+	}
+
+	.fixed-table-pagination .pagination-detail {
+			display: none;
+		}
+
+}
+
+.modal-gerenciador {
+	label {
+		font-size: $font-size-base;
+		color: $laranja-base;
+	}
+	select {
+		width: 100%;
+	}
+}
+
+.busca-reservas, .formulario-periodo, .formulario-pacote, {
+
+	/*-----------------------------------------------------------------*/
+	/* INPUT DATA
+	/*-----------------------------------------------------------------*/
+
+	.datepicker {
+
+		.data-input {
+			max-width: 170px;
+			font-weight: bold;
+		}
+
+		.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+			border-radius: 4px;
+		}
+
+		.input-group-btn {
+			border: 0;
+			left: -30px;
+		}
+
+		button {
+			border:0;
+		}
+
+	}
+
+	.datepicker-calendar-wrapper {
+		position: absolute;
+		left: -270px;
+	}
+
+	.datepicker-calendar-header .next, .datepicker-calendar-header .prev, {
+		background-color: $laranja-base;
+	}
+
+	.datepicker-calendar-header .next:hover, .datepicker-calendar-header .prev:hover {
+		background-color: $laranja-base-hover;
+	}
+
+	.datepicker-calendar-header .title {
+		font-family: $font-family-primary;
+		font-size: $font-size-base;
+		text-decoration: none;
+	}
+
+	.datepicker-calendar-header .title:hover {
+		color: $laranja-base-hover;
+	}
+
+	.datepicker-calendar-days td.selected span {
+		background-color: $laranja-base;
+	}
+
+	.datepicker-calendar-days td.selected span:hover {
+		background-color: $laranja-base-hover;
+	}
+
+	.datepicker-calendar-days td.selected b, .datepicker-calendar-days td.selected button {
+		color: #fff;
+	}
+
+	.datepicker-calendar-footer .datepicker-today {
+		text-decoration: none;
+	}
+
+	.datepicker-calendar-footer .datepicker-today:hover {
+		color: $laranja-base-hover;
+		text-decoration: none;
+	}
+
+	.datepicker-wheels-month ul li.selected button:hover, .datepicker-wheels-year ul li.selected button:hover {
+		background-color: $laranja-base-hover;
+	}
+
+	.datepicker-wheels-month ul li.selected button, .datepicker-wheels-year ul li.selected button {
+		background-color: $laranja-base;
+	}
+
+	.datepicker-wheels-footer .datepicker-wheels-select {
+		color: $laranja-base;
+	}
+
+	.datepicker-wheels-footer .datepicker-wheels-select:hover {
+		color: $laranja-base-hover;
+	}
+
+	.datepicker-wheels-month ul li button:hover, .datepicker-wheels-year ul li button:hover {
+		background-color: $gray-lighter;
+	}
+
+	.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group > .btn, .input-group-btn:last-child > .dropdown-toggle, .input-group-btn:first-child > .btn:not(:first-child), .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
+		border-bottom-left-radius: 3px;
+		border-top-left-radius: 3px;
+	}
+
+	.btn-filtrar {
+		margin-top: 45px;
+		width: 100%;
+		max-width: 200px;
+	}
+
+	.margin-center {
+		text-align: center;
+	}
+
+	.margin-top {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+}
+
+.formulario-pacote, .formulario-quarto {
+	.panel-default > .panel-heading {
+		background-color: #fff;
+	}
+	.panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
+		border-top: 1px solid #ddd; 
+		border-bottom: 1px solid #ddd; 
+	}
+
+	.accordion-toggle h4:hover, .accordion-toggle h4:focus, .accordion-toggle h4:active {
+		color: $laranja-base;
+		cursor: pointer;
+	}
+
+	.collapse.in .accordion-toggle h4:hover {
+		color: $laranja-base;
+	}
+}
+
+.formulario-dias .checkbox-custom.checked:before {
+	background: $laranja-base;
+	border-color: $laranja-base;  
+}

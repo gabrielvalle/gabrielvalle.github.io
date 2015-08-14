@@ -1,0 +1,39 @@
+{
+  "name": "Pernoite.com",
+  "version": "0.0.0",
+  "authors": [
+    "Gabriel Valle <contato@gabrielvalle.com.br>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets",
+    "test",
+    "tests",
+    "vendor/assets"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "normalize.css": "~3.0.3",
+    "jasmine-standalone-2.0.2": "https://github.com/pivotal/jasmine/releases/download/v2.0.2/jasmine-standalone-2.0.2.zip",
+    "jasmine-fixture": "~1.2.2",
+    "bootstrap-table": "https://github.com/gabrielvalle/bootstrap-table.git#~1.7.0",
+    "typeahead.js": "https://github.com/gabrielvalle/typeahead.js.git#~0.10.5",
+    "fuelux": "https://github.com/gabrielvalle/fuelux.git#~3.6.5",
+    "font-awesome": "https://github.com/gabrielvalle/Font-Awesome.git#~4.3.0",
+    "bootstrap-sass": "https://github.com/gabrielvalle/bootstrap-sass.git#~3.3.4",
+    "Flowtype.js": "~1.1.0",
+    "bootstrap-timepicker": "https://github.com/gabrielvalle/bootstrap-timepicker.git#~0.2.6",
+    "moment": "https://github.com/moment/moment.git#~2.10.2",
+    "bootbox.js": "https://github.com/gabrielvalle/bootbox.git#~4.4.0",
+    "animate.css": "https://github.com/gabrielvalle/animate.css.git#~3.2.6",
+    "noty": "https://github.com/gabrielvalle/noty.git#~2.3.5",
+    "gmaps": "https://github.com/gabrielvalle/gmaps.git#~0.4.17",
+    "Lightbox_me": "https://github.com/gabrielvalle/Lightbox_me.git",
+    "bootstrap-toggle": "https://github.com/gabrielvalle/bootstrap-toggle.git#~2.2.0",
+    "blueimp-file-upload": "https://github.com/gabrielvalle/jQuery-File-Upload.git#~9.10.0"
+  }
+}

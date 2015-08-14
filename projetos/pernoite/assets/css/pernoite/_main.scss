@@ -1,0 +1,67 @@
+/*-----------------------------------------------------------------*/
+/* MAIN
+/*-----------------------------------------------------------------*/
+body {
+ font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6,p {
+ line-height: 1.45;
+}
+
+.pernoite {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+}
+
+.hidden-page {
+  display: none;
+}
+
+@-webkit-keyframes loading {
+  0%, 100% {
+    color: rgba(255,255,255,1);
+  }
+
+  50%  {
+    color: rgba(255,255,255,0);
+  }
+}
+
+.loading {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: loading;
+
+  background: rgba(0,0,0,.3);
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  left: 50%;
+  top: 50%;
+  margin: -30px 0 0 -75px;
+  width: 200px;
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+}
+
+.modal {
+  .modal-body {
+    p {
+      font-size: $font-size-base;
+    }
+  }
+}
+
+.content-contato {
+  
+  p {
+    font-size: 14px;
+  }
+  
+
+}
+

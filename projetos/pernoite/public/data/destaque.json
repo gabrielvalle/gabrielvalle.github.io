@@ -1,0 +1,10 @@
+[
+    {"nome":"Hotel Json 1", "bairro":"Copacabana", "imagem_destaque": "http://placehold.it/350x260"},
+    {"nome":"Hotel Json 2", "bairro":"Copacabana", "imagem_destaque": "http://placehold.it/350x260"},
+    {"nome":"Hotel Json 3", "bairro":"Copacabana", "imagem_destaque": "http://placehold.it/350x260"},
+    {"nome":"Hotel Json 4", "bairro":"Copacabana", "imagem_destaque": "http://placehold.it/350x260"},
+    {"nome":"Hotel Json 5", "bairro":"Copacabana", "imagem_destaque": "http://placehold.it/350x260"},
+    {"nome":"Hotel Json 6", "bairro":"Copacabana", "imagem_destaque": "http://placehold.it/350x260"},
+    {"nome":"Hotel Json 7", "bairro":"Copacabana", "imagem_destaque": "http://placehold.it/350x260"},
+    {"nome":"Hotel Json 8", "bairro":"Copacabana", "imagem_destaque": "http://placehold.it/350x260"}
+]

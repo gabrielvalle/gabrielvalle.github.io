@@ -1,0 +1,40 @@
+.area-mensagens {
+
+  button {
+    width: 140px;
+    color: #fff;
+    position: absolute;
+    top: 59px;
+    &:hover {
+      color: #fff !important;
+    }
+  }
+
+  table {
+    color: $azul-claro-base;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  th {
+    background-color: $azul-claro-base;
+    color: #fff;
+  }
+
+  .pull-left {
+    display:none;
+  }
+
+  
+  .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+    background-color: $azul-claro-base !important;
+    border-color: $azul-claro-base !important;
+    color: #fff !important;
+  }
+  .pagination > li > a, .pagination > li > span {
+    color: $azul-claro-base;
+  }
+
+}
