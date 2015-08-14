@@ -9,14 +9,14 @@ Pernoite.Application = (function() {
 
 	this.routes = {
 
-     '/': Pernoite.IndexRoute
-   , '/temp.html': Pernoite.IndexRoute 
-   , '/hotel.html': Pernoite.HotelRoute
-   , '/resultado.html': Pernoite.ResultadoRoute
-   , '/reservar.html': Pernoite.ReservarRoute
-   , '/usuario.html': Pernoite.UsuarioRoute
-   , '/gerenciador.html': Pernoite.GerenciadorRoute
-   , '/contato.html': Pernoite.ContactRoute
+     '/projetos/pernoite/public/': Pernoite.IndexRoute
+   , '/projetos/pernoite/public/temp.html': Pernoite.IndexRoute 
+   , '/projetos/pernoite/public/hotel.html': Pernoite.HotelRoute
+   , '/projetos/pernoite/public/resultado.html': Pernoite.ResultadoRoute
+   , '/projetos/pernoite/public/reservar.html': Pernoite.ReservarRoute
+   , '/projetos/pernoite/public/usuario.html': Pernoite.UsuarioRoute
+   , '/projetos/pernoite/public/gerenciador.html': Pernoite.GerenciadorRoute
+   , '/projetos/pernoite/public/contato.html': Pernoite.ContactRoute
 
    //   '/pernoite/public/': Pernoite.IndexRoute
    // , '/pernoite/public/hotel.html': Pernoite.HotelRoute
