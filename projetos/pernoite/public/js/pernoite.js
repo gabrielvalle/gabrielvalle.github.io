@@ -30690,12 +30690,12 @@ Pernoite.Application = (function() {
 
      '/projetos/pernoite/public/': Pernoite.IndexRoute
    , '/projetos/pernoite/public/temp.html': Pernoite.IndexRoute 
-   , 'http://gabrielvalle.com.br/projetos/pernoite/public/hotel.html': Pernoite.HotelRoute
-   , 'http://gabrielvalle.com.br/projetos/pernoite/public/resultado.html': Pernoite.ResultadoRoute
-   , 'http://gabrielvalle.com.br/projetos/pernoite/public/reservar.html': Pernoite.ReservarRoute
-   , 'http://gabrielvalle.com.br/projetos/pernoite/public/usuario.html': Pernoite.UsuarioRoute
-   , 'http://gabrielvalle.com.br/projetos/pernoite/public/gerenciador.html': Pernoite.GerenciadorRoute
-   , 'http://gabrielvalle.com.br/projetos/pernoite/public/contato.html': Pernoite.ContactRoute
+   , '/projetos/pernoite/public/hotel.html': Pernoite.HotelRoute
+   , '/projetos/pernoite/public/resultado.html': Pernoite.ResultadoRoute
+   , '/projetos/pernoite/public/reservar.html': Pernoite.ReservarRoute
+   , '/projetos/pernoite/public/usuario.html': Pernoite.UsuarioRoute
+   , '/projetos/pernoite/public/gerenciador.html': Pernoite.GerenciadorRoute
+   , '/projetos/pernoite/public/contato.html': Pernoite.ContactRoute
 
    //   '/pernoite/public/': Pernoite.IndexRoute
    // , '/pernoite/public/hotel.html': Pernoite.HotelRoute
