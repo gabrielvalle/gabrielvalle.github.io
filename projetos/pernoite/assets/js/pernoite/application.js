@@ -9,7 +9,7 @@ Pernoite.Application = (function() {
 
 	this.routes = {
 
-     'projetos/pernoite/public/': Pernoite.IndexRoute
+     'http://gabrielvalle.com.br/projetos/pernoite/public/': Pernoite.IndexRoute
    , 'http://gabrielvalle.com.br/projetos/pernoite/public/temp.html': Pernoite.IndexRoute 
    , 'http://gabrielvalle.com.br/projetos/pernoite/public/hotel.html': Pernoite.HotelRoute
    , 'http://gabrielvalle.com.br/projetos/pernoite/public/resultado.html': Pernoite.ResultadoRoute
