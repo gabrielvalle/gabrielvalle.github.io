@@ -1,0 +1,16 @@
+.skin-color-bg{
+    background: rgba(255, 255, 255,.6);
+    border-top: 1px solid rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(173, 173, 173, 0.5);
+
+}
+.skin-color{
+    color: rgba(0,0,0,1);
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+.skin-color:hover{
+    color: rgb(102, 102, 102);
+}

@@ -1,0 +1,164 @@
+/*
+--------------------------------------------------------
+
+[ INSTA , Responsive Stylesheet ]
+
+  Template Name : INSTA - Responsive Onepage Resume Template
+  
+  Version       :  1.0 
+  
+  Author        :  Pixel_Factory
+  
+  Author URI    :  http://themeforest.net/user/Pixel_Factory
+  
+  Author Email  : h.nafees.anwar@gmail.com
+
+--------------------------------------------------------
+*/
+
+.quebra-menu {
+    display: none;
+    margin: -20px 0 0px 0;
+}
+
+.carousel-indicators {
+    bottom: 110px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .quebra-menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 27px;
+    }
+    .close-btn {
+        right: 4%;
+    }
+    .image-container {
+        height: 400px;
+        position: relative;
+    }
+    .content-container {
+        left: 0;
+    }
+    .main-heading {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .heading h3 {
+        font-size: 13px;
+    }
+    .main-heading h1:after {
+        width: 250px;
+    }
+    .story-content div {
+        margin-top: 20px;
+    }
+    .education-container:before,
+    .experience-container:before {
+        display: none;
+    }
+    .education-content,
+    .experience-content {
+        width: 100%;
+        margin-left: 0;
+    }
+    .education-content h3,
+    .experience-content h3 {
+        text-align: center;
+    }
+    .education-content h3:before,
+    .experience-content h3:before {
+        display: none;
+    }
+    .google-map {
+        height: 500px;
+    }
+    .close-btn {
+        right: 3%;
+    }
+    .faixa-verde {
+        width: 40px;
+        height: 40px;
+        background: #f0f400;
+        position: fixed;
+        right: 21px;
+        top: 30px;
+        z-index: 1;
+        border-radius: 50%;
+    }
+    .menu h2 {
+        font-size: 16px !important;
+    }
+    .menu .heading i {
+        height: 40px !important;
+        width: 40px !important;
+        line-height: 40px !important;
+    }
+    .image-home {
+        background: url("../images/home_bg-mobile.jpg");
+        background-position: center center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .close-btn {
+        right: 4%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .intro-content h1 {
+        font-size: 30px;
+    }
+    .intro-content h2 {
+        font-size: 20px;
+    }
+    .main-heading {
+        padding-left: 20px;
+    }
+    .main-heading h1:after {
+        height: 3px;
+    }
+    .image-container {
+        height: 300px;
+    }
+    .story-content div a {
+        display: block;
+        float: none;
+        margin: 5px;
+    }
+    .contact-form button {
+        width: 100%;
+    }
+    .project .buttons a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin: 0;
+        font-size: 12px;
+    }
+    .close-btn {
+        right: 6%;
+    }
+    .nav-tabs>li>a {
+        font-size: 9px;
+        padding: 10px 7px;
+    }
+}

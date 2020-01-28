@@ -1,0 +1,24 @@
+.skin-color-bg{
+    /*background: rgba(255, 255, 255,.8);*/
+    border-top: 1px solid rgba(150, 150, 150, 1);
+    border-bottom: 1px solid rgba(100, 100, 100, 1);
+
+    background: -moz-linear-gradient(top,  rgba(91,91,91,0.8) 0%, rgba(91,91,91,0.8) 1%, rgba(114,114,114,0.8) 68%, rgba(94,94,94,0.8) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(91,91,91,0.8)), color-stop(1%,rgba(91,91,91,0.8)), color-stop(68%,rgba(114,114,114,0.8)), color-stop(100%,rgba(94,94,94,0.8))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(91,91,91,0.8) 0%,rgba(91,91,91,0.8) 1%,rgba(114,114,114,0.8) 68%,rgba(94,94,94,0.8) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(91,91,91,0.8) 0%,rgba(91,91,91,0.8) 1%,rgba(114,114,114,0.8) 68%,rgba(94,94,94,0.8) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(91,91,91,0.8) 0%,rgba(91,91,91,0.8) 1%,rgba(114,114,114,0.8) 68%,rgba(94,94,94,0.8) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(91,91,91,0.8) 0%,rgba(91,91,91,0.8) 1%,rgba(114,114,114,0.8) 68%,rgba(94,94,94,0.8) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc5b5b5b', endColorstr='#cc5e5e5e',GradientType=0 ); /* IE6-9 */
+
+}
+.skin-color{
+    color: rgb(255, 255, 255);
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+.skin-color:hover{
+    color: rgba(0, 0, 0,.7);
+}

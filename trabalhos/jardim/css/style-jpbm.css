@@ -1,0 +1,33 @@
+/* ==============================
+   Intro
+   ============================== */
+
+.intro-mascara {
+    background-image: url(images/intro-mascara.png);
+    z-index: 888;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.intro-praia {
+    background-image: url(images/intro-praia.jpg);
+    z-index: 777;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.intro-logo {
+    background-image: url(images/intro-logo.png);
+    z-index: 999;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.intro-scene {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}

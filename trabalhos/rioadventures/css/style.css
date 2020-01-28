@@ -1,0 +1,33 @@
+/*diversos*/
+* 		 		{ margin:0; padding:0; }
+body			{ background-color:#fff; background-position:top; background-repeat:no-repeat; }
+#clear 			{ clear: both; }
+
+
+/*titulos*/
+h1		 		{  }
+h2				{  }
+h3				{  }
+
+/*links*/
+a:link			{  }
+a:visited		{  }
+a:hover			{  }
+a:active		{  }
+
+/*paragrafos*/
+p				{  }
+
+/*total*/
+#total 			{ width:100%; margin: 0 auto; padding: 0; }
+.um				{ height: 6173px; background-image: url(../images/001-1.jpg); background-position: top center; }
+.dois			{ height: 6173px; background-image: url(../images/001-2.jpg); background-position: top center; }
+.tres			{ height: 6173px; background-image: url(../images/001-3.jpg); background-position: top center; }
+.quatro			{ height: 6173px; background-image: url(../images/001-4.jpg); background-position: top center; }
+.cinco			{ height: 6173px; background-image: url(../images/001-5.jpg); background-position: top center; }
+.seis			{ height: 3352px; background-image: url(../images/002.jpg); background-position: top center; }
+.sete			{ height: 5206px; background-image: url(../images/003.jpg); background-position: top center; }
+.oito			{ height: 5397px; background-image: url(../images/004.jpg); background-position: top center; }
+.nove			{ height: 1690px; background-image: url(../images/005.jpg); background-position: top center; }
+.dez			{ height: 1855px; background-image: url(../images/006.jpg); background-position: top center; }
+.onze			{ height: 1849px; background-image: url(../images/007.jpg); background-position: top center; }

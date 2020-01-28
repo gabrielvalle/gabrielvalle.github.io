@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+
+    <script src="js/three.min.js"></script>
+    <script src="js/flipbook.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/flipbook.style.css">
+    <link rel="stylesheet" type="text/css" href="css/flipbook.skin.white.css">
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#container").flipBook({
+                pages: [{
+                    src: "images/book3/page1-min.jpg",
+                    thumb: "images/book3/thumb1.jpg",
+                    title: "1"
+                }, {
+                    src: "images/book3/page2-min.jpg",
+                    thumb: "images/book3/thumb2.jpg",
+                    title: "2"
+                }, {
+                    src: "images/book3/page3-min.jpg",
+                    thumb: "images/book3/thumb3.jpg",
+                    title: "3"
+                }, {
+                    src: "images/book3/page4-min.jpg",
+                    thumb: "images/book3/thumb4.jpg",
+                    title: "4"
+                }, {
+                    src: "images/book3/page5-min.jpg",
+                    thumb: "images/book3/thumb1.jpg",
+                    title: "1"
+                }, {
+                    src: "images/book3/page6-min.jpg",
+                    thumb: "images/book3/thumb2.jpg",
+                    title: "2"
+                }, {
+                    src: "images/book3/page7-min.jpg",
+                    thumb: "images/book3/thumb3.jpg",
+                    title: "3"
+                }, {
+                    src: "images/book3/page8-min.jpg",
+                    thumb: "images/book3/thumb4.jpg",
+                    title: "4"
+                }, {
+                    src: "images/book3/page9-min.jpg",
+                    thumb: "images/book3/thumb1.jpg",
+                    title: "1"
+                }, {
+                    src: "images/book3/page10-min.jpg",
+                    thumb: "images/book3/thumb2.jpg",
+                    title: "2"
+                }, {
+                    src: "images/book3/page11-min.jpg",
+                    thumb: "images/book3/thumb3.jpg",
+                    title: "3"
+                }, {
+                    src: "images/book3/page12-min.jpg",
+                    thumb: "images/book3/thumb4.jpg",
+                    title: "4"
+                }, {
+                    src: "images/book3/page13.jpg",
+                    thumb: "images/book3/thumb1.jpg",
+                    title: "1"
+                }, {
+                    src: "images/book3/page14-min.jpg",
+                    thumb: "images/book3/thumb2.jpg",
+                    title: "2"
+                }, {
+                    src: "images/book3/page15-min.jpg",
+                    thumb: "images/book3/thumb3.jpg",
+                    title: "3"
+                }, {
+                    src: "images/book3/page16-min.jpg",
+                    thumb: "images/book3/thumb4.jpg",
+                    title: "4"
+                }, {
+                    src: "images/book3/page17-min.jpg",
+                    thumb: "images/book3/thumb1.jpg",
+                    title: "1"
+                }, {
+                    src: "images/book3/page18-min.jpg",
+                    thumb: "images/book3/thumb2.jpg",
+                    title: "2"
+                }, {
+                    src: "images/book3/page19-min.jpg",
+                    thumb: "images/book3/thumb3.jpg",
+                    title: "3"
+                }, {
+                    src: "images/book3/page20-min.jpg",
+                    thumb: "images/book3/thumb4.jpg",
+                    title: "4"
+                }, {
+                    src: "images/book3/page21-min.jpg",
+                    thumb: "images/book3/thumb4.jpg",
+                    title: "4"
+                }, {
+                    src: "images/book3/page22-min.jpg",
+                    thumb: "images/book3/thumb4.jpg",
+                    title: "4"
+                }],
+                lightBox: false,
+                webgl: true,
+                pageHardness: 7,
+                coverHardness: 7,
+                pageMaterial: 'phong',
+                btnExpand: false,
+                btnShare: false,
+                btnThumbs: false,
+                btnToc: false,
+                tilt: -10,
+                bookY: 70,
+                zoom: .7
+            });
+
+        })
+    </script>
+    <style>
+        body {}
+        
+        #container {}
+        
+        #outer {}
+    </style>
+
+</head>
+
+<body>
+    <div class="delivery"></div>
+    <div class="funcionamento"></div>
+    <div id="outer">
+        <div id="container">
+
+        </div>
+    </div>
+</body>
+
+</html>
